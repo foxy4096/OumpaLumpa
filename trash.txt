@@ -1,0 +1,40 @@
+fn main() {
+    println!("Lord have mercy on us! \n"); // DON'T DO THIS! Never remove this line!
+
+    // let my_awesome_variable: u32 = 69;
+    // println!("{my_awesome_variable}");
+    // println!("Do you want to change the my_awesome_variable?");
+    // println!("Y/n");
+    // // let mut choice = String::new();
+    // println!("This is without &: {my_awesome_variable}");
+    // println!("{}", &my_awesome_variable);
+
+    // // std::io::stdin().read_line(&mut choice).expect("Oh Fuck!");
+
+    // println!("---------------------------------------------------------");
+
+    // let mut x = 5;
+    // println!("The value of x is: {x}");
+    // x = &x+ 5;
+    // println!("{}", &x);
+    // println!("The value of x is: {x}");
+
+    // let my_guess: usize = "69".parse().expect("Dumb Shit, this is not a number.");
+    // println!("{}", my_guess);
+
+    // The fucking tuples [Compound types]
+
+    // let list_display = ("name", "email", "age");
+    // println!("{}, {}, {}", list_display.0, list_display.1, list_display.2)
+
+    struct User {
+        username: String,
+
+    };
+
+    let my_vec = vec![1, 2, 3];
+    // for num in my_vec.iter() {
+    //     println!("> {:#}", num);
+    // }
+    println!("{:#?}", my_vec);
+}
